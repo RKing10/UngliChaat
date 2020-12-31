@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.header-left {
+    float: left;
+  }
+  .header-name{
+    color:white;
+    transform: translate(95px,-60px);
+    
+    
+  }
+
+    
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    margin-right: 20px;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    
+  }
+  .logo {
+    width: 60px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  footer{
+    margin-top: 50px;
+    height: 200px;
+    
+    background-color: rgba(34, 49, 52, 0.9);
+    margin-bottom: 0px;
+     
+  }
+  .footer-left{
+    float: left;
+    
+    transform: translateY(40px);
+  }
+  .footer-div h1{
+    /* padding-top: 25px; */
+    transform: translate(90px,-50px);
+    font-size: 35px;
+    color: white;
+    padding-left:15px;
+    display: inline-block;
+  
+  }
+  .footer-img{
+    width: 90px;
+    padding-top: 25px;
+    padding-left: 15px;
+    cursor: pointer;
+  }
+  .footer-div p{
+    transform: translate(90px,-48px);
+    color: gold;
+    display: inline-block;
+    padding-left: 5px;
+  }
+  .footer-right{
+    
+    display: inline-block;
+    
+  }
+  .footer-contact{
+    display: inline-block;
+    transform: translate(550px,0px);
+    border-left: 2px dashed pink;
+    border-right: 2px dashed pink;
+    padding-right: 15px;
+    padding-top:20px;
+    margin-top: 0px;
+    width: 360px;
+    padding-left: 15px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+  }
+  .footer-contact h1{
+    transform: translateY(-15px);
+    display: inline-block;
+    color: white;
+    
+    
+  }
+  .footer-contact p{
+    /* padding-top: 0px;
+  
+    margin-top: 0px; */
+    text-align: left;
+  }
+  .footer-social{
+    float: right;
+    text-align: center;  
+    transform: translate(600px,7px);
+    line-height: 40px;
+    border-right: 2px dashed pink;
+    padding-right: 45px;
+  }
+  .footer-social h1{
+    color: white;
+    padding-bottom: 25px;
+  }
+  .footer-social img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    
+  }
+  .footer-social img:hover{
+    outline: 2px solid pink;
+    
+  }
+  .fax-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .email-logo{
+    width: 30px;
+    
+    margin-right: 10px;
+    height: 30px;
+  }
+  .fa-phone{
+    background-color: black;
+    margin-right: 10px;
+    padding:4px;
+    padding-left:8px;
+    width: 30px;
+    border-radius: 5px;
+  }
+  /*  */
+
+  .products-container{
+    /* max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px; */
+
+    width: 1000px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  .product-header{
+    /* width: 100%;
+    margin-left: 400px;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto; */
+
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid black;
+    
+    border-radius: 10px;
+    height: 100px;
+    width: 100%;
+    
+  }
+
+  .product-title{
+    width: 500px;
+    
+    margin-top: 40px;
+  }
+
+  .price{
+    /* width: 15%;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid lightgray; */
+
+    width: 50px;
+    margin-left: 550px;
+    margin-top: -20px;
+    font-size: 20px;
+    
+  }
+
+  .total{
+    /* width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center; */
+
+    text-align: right;
+    margin-top: -20px;
+    padding-right: 20px;
+    font-size: 20px;
+    
+  }
+
+  .product{
+    width: 45%;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .quantity{
+    /* width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center; */
+
+    width: 50px;
+    font-size: 20px;
+    
+    margin-left: 700px;
+    margin-top: -20px;
+  }
+
+  .product img{
+    width: 30%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+  .products-container{
+
+  }
+
+  .basketTotalContainer{
+    /* display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0; */
+
+    border: 5px solid red;
+  }
+  .basketTotalTitle{
+    width: 30%;
+    margin-top: 40px;
+    transform: translateY(30px);
+    /* border: 5px solid black; */
+    /* padding-bottom: 20px; */
+    padding-top: 60px;
+    padding-left: 20px;
+    margin-bottom: -30px;
+    font-size: 25px;
+  }
+
+  .basketTotal{
+    /* width: 10%; */
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    border: 5px solid black;
+    /* margin-top: 60px; */
+    padding-top: 20px;
+    border-top: 15px solid white;
+    /* padding-bottom: 50px; */
+    margin-bottom: 20px;
+  }
+
+  #continue{
+    width: 150px;
+    background-color: transparent;
+    border: 8px solid gray;
+    margin-left: 700px;
+    /* margin-top: 20px */
+    height: 80px;
+    font-size: 20px;
+  }
+  button{
+    margin-top: 50px;
+  }
+  #continue:hover{
+    background-color: gray;
+    color: white;
+    box-shadow: 4px 4px black;
+  }
+  #continue:active{
+    box-shadow: none;
+    position: relative;
+    height: -4px;
+  }
